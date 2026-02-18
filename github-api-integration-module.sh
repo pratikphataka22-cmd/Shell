@@ -5,7 +5,7 @@
 #
 #
 #
-# This script will help users to communicate and retrieve information from GitHub
+# This script will hel
 # Usage:
 #   Please provide your github token and rest api to the script as input
 #
@@ -20,10 +20,10 @@ fi
 GITHUB_TOKEN=$1
 GITHUB_API_REST=$2
 
-GITHUB_API_HEADER_ACCEPT="Accept: application/vnd.github.v3+json"
+GITHUB_API_H
 
 temp=`basename $0`
-TMPFILE=`mktemp /tmp/${temp}.XXXXXX` || exit 1
+TMPFILE=`mktemp /tmp/${tem
 
 
 function rest_call {
